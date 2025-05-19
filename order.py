@@ -15,9 +15,9 @@ class Order:
         if not isinstance(price, float ) and 1.0 <= 10.0:
             raise TypeError("")
         
-        self.customer =customer
-        self.coffee = coffee
-        self.price = price
+        self._customer =customer
+        self._coffee = coffee
+        self._price = price
 
 
     @property
